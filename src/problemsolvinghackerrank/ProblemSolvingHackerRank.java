@@ -8,6 +8,7 @@ package problemsolvinghackerrank;
 import exercises.BirthdayCakeCandles;
 import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
+import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
 import exercises.TimeConversion;
@@ -41,6 +42,9 @@ public class ProblemSolvingHackerRank {
         
         CountingValleys countingValleys = new CountingValleys();
         int resultProblem6 = countingValleys.resultProblem();
+        
+        JumpingOnClouds jumpingOnClouds = new JumpingOnClouds();
+        int resultProblems7 = jumpingOnClouds.resultProblem();
         
         
     }
