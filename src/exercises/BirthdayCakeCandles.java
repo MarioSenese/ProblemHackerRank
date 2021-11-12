@@ -32,8 +32,9 @@ public class BirthdayCakeCandles {
     }
     
     /**
-     * Esercizio per il problema: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+     * Problema: https://www.hackerrank.com/challenges/birthday-cake-candles/problem
      * @param candles 
+     * return Integer
     */
         private static int birthdayCakeCandles(List<Integer> candles) {
             

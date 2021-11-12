@@ -32,7 +32,7 @@ public class DesignerPdfViewer {
     }
     
     /**
-     * Esercizione per il problema: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem - Designer PDF Viewer
+     * Problema: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem - Designer PDF Viewer
      * https://www.hackerrank.com/challenges/designer-pdf-viewer/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
      * @param List<Integer> h -> lista di altezze di ogni lettera
      * @param String word

@@ -43,7 +43,7 @@ public class SalesByMatch {
     }
     
     /**
-     * Esercizione per il problema: https://www.hackerrank.com/challenges/sock-merchant/problem - Sales by Match
+     * Problema: https://www.hackerrank.com/challenges/sock-merchant/problem - Sales by Match
      * https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
      * @param List<Integer> h -> lista di calzini
      * @param int n -> il numero dei calzini presenti nella lista

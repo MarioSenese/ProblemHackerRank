@@ -26,10 +26,11 @@ public class TimeConversion {
     }
     
     /**
-     * Esercizio per il problema: https://www.hackerrank.com/challenges/time-conversion/problem
+     * Problema: https://www.hackerrank.com/challenges/time-conversion/problem
      * @param dateString 
      * 07:05:45PM -> hh:mm:ssa 
      * 07:05:45 PM -> hh:mm:ss a
+     * return String
     */
         private static String timeConversion(String dateString) {
             
