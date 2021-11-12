@@ -37,7 +37,6 @@ public class ProblemSolvingHackerRank {
         
         SalesByMatch salesByMatch = new SalesByMatch();
         int resultProblem5 = salesByMatch.resultProblem();
-        System.out.println("resultProblem5: " + resultProblem5);
         
         
     }
