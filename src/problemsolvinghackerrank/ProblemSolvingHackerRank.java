@@ -6,6 +6,7 @@
 package problemsolvinghackerrank;
 
 import exercises.BirthdayCakeCandles;
+import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
@@ -37,6 +38,9 @@ public class ProblemSolvingHackerRank {
         
         SalesByMatch salesByMatch = new SalesByMatch();
         int resultProblem5 = salesByMatch.resultProblem();
+        
+        CountingValleys countingValleys = new CountingValleys();
+        int resultProblem6 = countingValleys.resultProblem();
         
         
     }

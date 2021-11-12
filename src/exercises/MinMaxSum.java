@@ -60,8 +60,6 @@ public class MinMaxSum {
             sommaNoMin = sommaNoMax;
         }
 
-        System.out.println(sommaNoMax + " " + sommaNoMin);
-
     }
 
     private static Integer max(List<Integer> arr) {
