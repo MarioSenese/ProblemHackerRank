@@ -6,6 +6,7 @@
 package problemsolvinghackerrank;
 
 import exercises.BirthdayCakeCandles;
+import exercises.CatsAndMouse;
 import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
 import exercises.ElectronicsShop;
@@ -13,6 +14,7 @@ import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
 import exercises.TimeConversion;
+import java.io.IOException;
 
 /**
  *
@@ -23,7 +25,7 @@ public class ProblemSolvingHackerRank {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // TODO code application logic here
         
         DesignerPdfViewer designerPdfViewer = new DesignerPdfViewer();
@@ -49,6 +51,9 @@ public class ProblemSolvingHackerRank {
         
         ElectronicsShop electronicsShop = new ElectronicsShop();
         int resultProblem8 = electronicsShop.resultProblem();
+        
+        CatsAndMouse catsAndMouse = new CatsAndMouse();
+        String resultProblem9 = catsAndMouse.resultProblem();
         
         
     }
