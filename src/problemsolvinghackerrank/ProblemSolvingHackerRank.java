@@ -10,6 +10,7 @@ import exercises.CatsAndMouse;
 import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
 import exercises.ElectronicsShop;
+import exercises.FormingAMagicSquare;
 import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
@@ -54,6 +55,9 @@ public class ProblemSolvingHackerRank {
         
         CatsAndMouse catsAndMouse = new CatsAndMouse();
         String resultProblem9 = catsAndMouse.resultProblem();
+        
+        FormingAMagicSquare formingAMagicSquare = new FormingAMagicSquare();
+        int resultProblem10 = formingAMagicSquare.resultProblem();
         
         
     }
