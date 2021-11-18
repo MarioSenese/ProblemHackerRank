@@ -10,6 +10,7 @@ import exercises.CatsAndMouse;
 import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
 import exercises.ElectronicsShop;
+import exercises.File.RepeatedString;
 import exercises.FormingAMagicSquare;
 import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
@@ -59,6 +60,8 @@ public class ProblemSolvingHackerRank {
         FormingAMagicSquare formingAMagicSquare = new FormingAMagicSquare();
         int resultProblem10 = formingAMagicSquare.resultProblem();
         
+        RepeatedString repeatedString = new RepeatedString();
+        long resultProblem11 = repeatedString.resultProblem();
         
     }
     
