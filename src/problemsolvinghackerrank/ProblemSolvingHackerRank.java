@@ -61,7 +61,7 @@ public class ProblemSolvingHackerRank {
         int resultProblem10 = formingAMagicSquare.resultProblem();
         
         RepeatedString repeatedString = new RepeatedString();
-        long resultProblem11 = repeatedString.resultProblem();
+        long resultProblem11 = repeatedString.resultProblem(); 
         
     }
     
