@@ -8,6 +8,7 @@ package exercises;
 import exercises.Matrix.Option;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -32,16 +33,34 @@ public class FormingAMagicSquare {
             {1, 5, 8}, 
             {6, 4, 2}
         }; // 7 */
-        int[][] square = { 
+       /* int[][] square = { 
             {4, 9, 2}, 
             {3, 5, 7}, 
             {8, 1, 5}
-        }; // 1 
+        }; // 1 */
         /*int[][] square = { 
             {4, 8, 2}, 
             {4, 5, 7}, 
             {6, 1, 6}
         };*/
+        
+        /*int[][] square = { 
+            {1, 3, 8}, 
+            {6, 4, 1}, 
+            {2, 6, 5}
+        }; // 9*/
+        
+        /*int[][] square = { 
+            {4, 5, 8}, 
+            {2, 4, 1}, 
+            {1, 9, 7}
+        }; // 14*/
+        
+        int[][] square = { 
+            {2, 2, 7}, 
+            {8, 6, 4}, 
+            {1, 2, 9}
+        }; // 16
         
         
         /**
@@ -85,31 +104,57 @@ public class FormingAMagicSquare {
         /**
          *  Dichiarazione di variabili necessarie per ottenere il costo minimo
         */
-        int min = Integer.MAX_VALUE; 
-        int sum = 0;
+        int min = Integer.MAX_VALUE, min1 = Integer.MAX_VALUE; 
+        int sum = 0, sum1 = 0;
+        
+        // test
+         ArrayList<int[][]> options1 = new ArrayList<>();
+        int[][] tmp = new int[][]{{2, 9, 4}, {7, 5, 3}, {6, 1, 8}}; 
+        options1.add(tmp);
+        tmp = new int[][]{{6, 1, 8}, {7, 5, 3}, {2, 9, 4}};  
+        options1.add(tmp);
+        tmp = new int[][]{{8, 1, 6}, {3, 5, 7}, {4, 9, 2}};  
+        options1.add(tmp);
+        tmp = new int[][]{{4, 9, 2}, {3, 5, 7}, {8, 1, 6}};  
+        options1.add(tmp);
+        tmp = new int[][]{{8, 3, 4}, {1, 5, 9}, {6, 7, 2}}; 
+        options1.add(tmp);
+        tmp = new int[][]{{4, 3, 8}, {9, 5, 1}, {2, 7, 6}}; 
+        options1.add(tmp);
+        tmp = new int[][]{{6, 7, 2}, {1, 5, 9}, {8, 3, 4}};  
+        options1.add(tmp);
+        tmp = new int[][]{{2, 7, 6}, {9, 5, 1}, {4, 3, 8}};  
+        options1.add(tmp);
         
         /**
          *  Logica per ottenere il costo minimo
-        */
+         */
+        
         for (int[][] option : options) {
-            
             for (int i = 0; i < squareMagic.length; i++) {
                 for (int j = 0; j < squareMagic[i].length; j++) {
-                    sum = sum + Math.abs(option[i][j] - s.get(j).get(i));
+                    //sum = sum + Math.abs(option[i][j] - s.get(i).get(j));
+                    sum = sum + Math.abs(option[j][i] - s.get(i).get(j));
+                    sum1 = sum1 + Math.abs(option[i][j] - s.get(i).get(j));
                 }
             }
             sum = Math.abs(sum);
-            if(sum<min){
-                min = sum;
-            }
-            sum = 0;
+            sum1 = Math.abs(sum1);
+            if(sum<min) min = sum;
+            if(sum1<min1) min1 = sum1;
+            sum = sum1 = 0;
         }
         
-        result = min;
+        result = Math.min(min, min1);
        
+        System.err.println("sum: " + min + " - sum1: " + min1);
+        System.err.println("result: " + result);
+        
         return result;
         
     }
-        
+    
+    
+   
      
 }

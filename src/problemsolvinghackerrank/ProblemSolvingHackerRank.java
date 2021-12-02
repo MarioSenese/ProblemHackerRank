@@ -12,11 +12,15 @@ import exercises.DesignerPdfViewer;
 import exercises.ElectronicsShop;
 import exercises.File.RepeatedString;
 import exercises.FormingAMagicSquare;
+import exercises.JavaDatatypes;
+import exercises.JavaEndoffile;
+import exercises.JavaLoopsII;
 import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
 import exercises.TimeConversion;
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  *
@@ -62,6 +66,24 @@ public class ProblemSolvingHackerRank {
         
         RepeatedString repeatedString = new RepeatedString();
         long resultProblem11 = repeatedString.resultProblem(); 
+        
+        // Per il contare il numero totale delle cifre presenti nel valore intero
+        int i = 50;
+        int count = 0;
+        while(i != 0) {
+            i = i / 10;
+            ++count;
+        }
+        System.out.println(count);
+        
+        JavaLoopsII.resultProblem();
+        
+        JavaDatatypes.resultProblem();
+        
+        JavaEndoffile.resultProblem();
+        
+        
+        
         
     }
     
