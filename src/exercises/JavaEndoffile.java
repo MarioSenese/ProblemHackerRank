@@ -25,7 +25,6 @@ public class JavaEndoffile {
     public static void resultProblem() throws IOException {
         
         exercises.File.File file = null;
-        
         String s =  "Hello world\n" +
                     "I am a file\n" +
                     "Read me until end-of-file.";
@@ -68,6 +67,7 @@ public class JavaEndoffile {
             String stringLine = scanner.nextLine();
             
             System.out.println(lineNumber + " " + stringLine);
+            
             
             lineNumber++;
             

@@ -5,6 +5,7 @@
  */
 package problemsolvinghackerrank;
 
+import exercises.ArraysLeftRotation;
 import exercises.BirthdayCakeCandles;
 import exercises.CatsAndMouse;
 import exercises.CountingValleys;
@@ -15,10 +16,12 @@ import exercises.FormingAMagicSquare;
 import exercises.JavaDatatypes;
 import exercises.JavaEndoffile;
 import exercises.JavaLoopsII;
+import exercises.JavaStaticInitializerBlock;
 import exercises.JumpingOnClouds;
 import exercises.MinMaxSum;
 import exercises.SalesByMatch;
 import exercises.TimeConversion;
+import exercises._2DArrayDS;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -74,7 +77,7 @@ public class ProblemSolvingHackerRank {
             i = i / 10;
             ++count;
         }
-        System.out.println(count);
+        /*System.out.println(count);
         
         JavaLoopsII.resultProblem();
         
@@ -82,6 +85,13 @@ public class ProblemSolvingHackerRank {
         
         JavaEndoffile.resultProblem();
         
+        JavaStaticInitializerBlock.resultProblem();*/
+        
+        _2DArrayDS _2ArrayDS = new _2DArrayDS();
+        int resultProblem16 = _2ArrayDS.resultProblem();
+        
+        ArraysLeftRotation arraysLeftRotation = new ArraysLeftRotation();
+        int resultProbleem17 = arraysLeftRotation.resultProblem();
         
         
         
