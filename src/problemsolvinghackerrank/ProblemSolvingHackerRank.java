@@ -5,11 +5,13 @@
  */
 package problemsolvinghackerrank;
 
+import exercises.ArraysDS;
 import exercises.ArraysLeftRotation;
 import exercises.BirthdayCakeCandles;
 import exercises.CatsAndMouse;
 import exercises.CountingValleys;
 import exercises.DesignerPdfViewer;
+import exercises.DynamicArray;
 import exercises.ElectronicsShop;
 import exercises.File.RepeatedString;
 import exercises.FormingAMagicSquare;
@@ -23,6 +25,7 @@ import exercises.SalesByMatch;
 import exercises.TimeConversion;
 import exercises._2DArrayDS;
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -92,6 +95,13 @@ public class ProblemSolvingHackerRank {
         
         ArraysLeftRotation arraysLeftRotation = new ArraysLeftRotation();
         int resultProbleem17 = arraysLeftRotation.resultProblem();
+        
+        ArraysDS arraysDS = new ArraysDS();
+        List<Integer> resultProblem18 = arraysDS.solutionProblem();
+        
+        DynamicArray dynamicArray = new DynamicArray();
+        List<Integer> resultProblem19 = dynamicArray.resultProblem();
+        
         
         
         
