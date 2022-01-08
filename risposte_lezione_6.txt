@@ -1,8 +1,0 @@
-1. Gli oggetti del mondo reale sono caratterizzati da STATO e COMPORTAMENTO.
-2. Lo stato di un oggetto software è memorizzato in VARIABILI.
-3. Il comportamento di un oggetto software è esposto mediate METODI.
-4. Nascondere lo stato all'interno di un oggetto e renderlo accessibile solo attraverso opportuni 
-	metodi serve a EVITARE GLI ACCESSI FACILI, IN SCRITTURA, DA CLASSI CHE APPARTENGONO ALLO STESSO PACKAGE.
-5. La struttura progettuale di un oggetto software si chiama CLASSE.
-6. Vari oggetti istanze della stessa CLASSE condividono struttura e comportamento.
-7. Vari oggetti istanze della stessa CLASSE hanno copie individuali e distinte dalle variabili.
